@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="DefaultThemeTemplates">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Content" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DefaultThemeTemplates>
+    <Name>ListHeader</Name>
+    <Content>&lt;TABLE WIDTH=93% BORDER=1 ALIGN=center BORDERCOLORLIGHT=#C1FFC1 BORDERCOLORDARK=#CEFFCE BGCOLOR=#ECFFEC VALIGN=MIDDLE&gt;&lt;TR VALIGN=middle&gt;&lt;TD HEIGHT=0% VALIGN=middle BGCOLOR=#CEFFCE&gt;&lt;FONT SIZE=3 COLOR=#00BB00&gt;&lt;B&gt;&amp;nbsp;test substitution&lt;/B&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&lt;BR&gt;</Content>
+  </DefaultThemeTemplates>
+  <DefaultThemeTemplates>
+    <Name>TestGrid</Name>
+    <Content>ha ha</Content>
+  </DefaultThemeTemplates>
+</NewDataSet>

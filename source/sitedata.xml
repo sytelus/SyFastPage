@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Things2Try">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="Heading" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Things2Try>
+    <ID>1</ID>
+    <Heading>Heavens Above</Heading>
+    <Description>Now that you have lived so many years, each having so many days, there's question: How many times you have stood up, raised your head, seen the stars and felt nothing? Well, think twice. You'd just popped up your head out of your small tiny ridiculously insignificant world in to something that's stunningly vast and breathtakingly beautiful. Astronomy has been a favorite passion for few of the us fortunate beings since ages and the lesser beings now need not left behind. While I'm still writing the page for plain beginners, here are the things you can do right how:
+
+Star parties is a gathering of few crazy people who wants to do all night long sky watching and help others out in knowing it better! Check out the events happening in your area and give yourself a go!. 
+Buy a book called Turn Left at Orion. That's the coolest one I've found so far. 
+Join the club, meet people and ask questions! Click here to find the one near you! 
+Buy a telescope. Meade ETX-125EC is just powerful enough in price range of under $1000. There are many much cheaper and still just little less powerful also available. 
+Explore the Internet. Check out some of my favorite links.</Description>
+  </Things2Try>
+  <Things2Try>
+    <ID>2</ID>
+    <Heading>Think AI</Heading>
+    <Description>I hate to say this, but this one is for computer programmers and that too who comes in geeky hardcore diehard flavors. If you are running out of quality challenges and you have started thinking that programming is as trivial as bank clerk's job, here's something you can face. As a programmer, Artificial Intelligence is the biggest, best and most worthwhile challenge ever to take upon! But what AI really means? where do I start? Check out the Learning Machine Challenge - an open challenge to whole world with crystal clear definition of what needs to be achieved from programmer's point of view. You can also find my submission to a-i.com's Learning Machine Challenge. It's probably first ever "AI" program written in C# with capability to learn rules of any game while you play with it.</Description>
+  </Things2Try>
+</NewDataSet>

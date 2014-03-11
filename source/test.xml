@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Programs">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="ProgramName" type="xs:string" minOccurs="0" />
+                <xs:element name="ProgramDescription" type="xs:string" minOccurs="0" />
+                <xs:element name="ProgramCreatedOn" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="IsSourceIncluded" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SourceSize" type="xs:int" minOccurs="0" />
+                <xs:element name="IsGeeky" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Language_x0020_Written" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Things2Try">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="Heading" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Programs>
+    <ID>1</ID>
+    <ProgramName>Visual Music</ProgramName>
+    <ProgramDescription>really cool</ProgramDescription>
+    <ProgramCreatedOn>2001-02-01T00:00:00.0000000-05:00</ProgramCreatedOn>
+    <IsSourceIncluded>true</IsSourceIncluded>
+    <SourceSize>12</SourceSize>
+    <IsGeeky>false</IsGeeky>
+    <Language_x0020_Written>VB 5</Language_x0020_Written>
+  </Programs>
+  <Programs>
+    <ID>2</ID>
+    <ProgramName>Outlook Addin</ProgramName>
+    <ProgramDescription>nice one</ProgramDescription>
+    <ProgramCreatedOn>1999-01-12T00:00:00.0000000-05:00</ProgramCreatedOn>
+    <IsSourceIncluded>false</IsSourceIncluded>
+    <SourceSize>1000</SourceSize>
+    <IsGeeky>true</IsGeeky>
+    <Language_x0020_Written>VB 6</Language_x0020_Written>
+  </Programs>
+</NewDataSet>
