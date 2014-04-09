@@ -44,7 +44,14 @@ namespace Sytel.SyFastPage
 			try
 			{
 				SmtpMail.SmtpServer = "mail.shitalshah.com";
-				SmtpMail.Send(senderEmail, "shital@ShitalShah.com", "Site Comments", "comment");
+				SmtpMail.Send(senderEmail, "shital@ShitalShah.com", "Site Comments", 
+					"Name:"  + senderName + "\n" + 
+					"User IP:" + 	userHostAddress + "\n" + 
+					"User Agent:" + userAgent + "\n" +
+					"Referrer: " + urlReferrer + "\n" +
+					"Headers: " + headers + "\n" +
+					"Time: " + commentTime + "\n" +
+						comment);
 			}
 			catch
 			{ //stay silent

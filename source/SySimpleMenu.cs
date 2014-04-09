@@ -77,7 +77,7 @@ namespace Sytel
 
 				if (oMenuInfo == null)
 				{
-					String sXmlFullFileName = Context.Server.MapPath(m_sMenuXMLFileName);
+					String sXmlFullFileName = System.IO.Path.Combine(HttpRuntime.AppDomainAppPath, m_sMenuXMLFileName);
 					
 					XmlDocument oNavigationXmlDocument = new  XmlDocument();
 					oNavigationXmlDocument.Load(sXmlFullFileName);

@@ -170,7 +170,7 @@ namespace Sytel
 			private void InjectTemplate()
 			{
 				//Read the page template
-				StreamReader oTemplateFileStream = File.OpenText(Server.MapPath(HtmlTemplateFileName));
+				StreamReader oTemplateFileStream = File.OpenText(System.IO.Path.Combine(HttpRuntime.AppDomainAppPath,HtmlTemplateFileName));
 				String sTemplateContent = oTemplateFileStream.ReadToEnd();
 				oTemplateFileStream.Close();
 				
